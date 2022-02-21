@@ -12,16 +12,13 @@ buttons.forEach((item) => {
 // Particles Library for background
 window.onload = function () {
   Particles.init({
-    // normal options
     selector: ".background",
     maxParticles: 500,
-    // options for breakpoints
     responsive: [
       {
         breakpoint: 768,
         options: {
           maxParticles: 250,
-          connectParticles: false,
         },
       },
       {
@@ -33,8 +30,7 @@ window.onload = function () {
       {
         breakpoint: 320,
         options: {
-          maxParticles: 0,
-          // disables particles.js
+          maxParticles: 50,
         },
       },
     ],

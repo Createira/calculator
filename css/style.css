@@ -99,3 +99,23 @@ body {
 .btn--wide {
   width: 100px;
 }
+
+@media screen and (max-width: 480px) {
+  .calculator__inner {
+    height: 420px;
+  }
+
+  .btn {
+    width: 45px;
+    height: 45px;
+  }
+
+  .btn--wide {
+    width: 105px;
+  }
+
+  .calculator__buttons {
+    padding: 0 20px;
+    gap: 9px;
+  }
+}
